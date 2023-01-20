@@ -30,6 +30,13 @@ wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutoria
 
 
 ## Train
+```sh
+mkdir tpu
+cd tpu
+mkdir train
+cd trin
+tmux
+```
 
 ```py
 python3 train_text_to_image_flax.py \
