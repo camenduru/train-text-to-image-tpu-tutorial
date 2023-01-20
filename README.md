@@ -49,7 +49,7 @@ python3 train_text_to_image_flax.py \
 ## Convert Flax model to PyTorch
 https://huggingface.co/spaces/camenduru/converter
 
-## Test Flax model ot PyTorch model
+## Test Flax model or PyTorch model
 https://github.com/camenduru/stable-diffusion-diffusers-colab
 
 ## Scripts From 
