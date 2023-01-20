@@ -5,10 +5,10 @@ from huggingface_hub import create_repo, upload_folder
 block = gr.Blocks()
 
 def build(hf_token):
-    repo_id = "camenduru/test-train"
+    repo_id = "camenduru/tpu-train-tutorial-flax"
     path_in_repo = ""
     create_repo(repo_id, private=True, token=hf_token)
-    upload_folder(folder_path="/home/camenduru/tpu/train", path_in_repo=path_in_repo, repo_id=repo_id, commit_message=f"train", token=hf_token)
+    upload_folder(folder_path="/home/camenduru/tpu/train/test", path_in_repo=path_in_repo, repo_id=repo_id, commit_message=f"train", token=hf_token)
     return "done"
 
 def init():
