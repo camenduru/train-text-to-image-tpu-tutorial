@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutoria
 mkdir tpu
 cd tpu
 mkdir train
-cd trin
+cd train
 tmux
 ```
 
