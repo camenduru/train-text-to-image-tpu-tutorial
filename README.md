@@ -10,10 +10,16 @@ sudo apt-get update && sudo apt-get install google-cloud-cli
 gcloud init
 ```
 
-`gcloud alpha compute tpus tpu-vm ssh node-1 --zone us-central1-f`
+```sh
+gcloud alpha compute tpus tpu-vm ssh node-1 --zone us-central1-f
+```
 
 ```py
 pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html packaging flax numpy diffusers transformers piexif fold_to_ascii discord ftfy dill urllib3 datasets importlib-metadata accelerate OmegaConf wandb optax torch torchvision modelcards pytorch_lightning protobuf==3.20.* tensorboard markupsafe==2.0.1
+```
+
+```sh
+wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutorial/main/train_text_to_image_flax.py
 ```
 
 ```py
