@@ -56,7 +56,11 @@ python3 train_text_to_image_flax.py \
 ```
 
 ## Push Trained model to 🤗
-`push.py`
+
+```sh
+wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutorial/main/push.py
+python3 push.py
+```
 
 ## Convert Flax model to PyTorch
 https://huggingface.co/spaces/camenduru/converter
