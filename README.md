@@ -1,3 +1,5 @@
+🐣 Please follow me for new updates https://twitter.com/camenduru
+
 This repo contains all codes and commands used in `train text to image with tpu tutorial`
 
 ## Prepare TPU VM
@@ -68,6 +70,12 @@ https://huggingface.co/spaces/camenduru/converter
 ## Test Flax model or PyTorch model
 https://github.com/camenduru/stable-diffusion-diffusers-colab
 
+# Output
+https://huggingface.co/camenduru/tpu-train-tutorial-flax
+https://huggingface.co/camenduru/tpu-train-tutorial-pt
+
+## YouTube Live VOD
+https://youtu.be/NGta-t4BoLY
 
 ## Main Repo ♥
 https://github.com/huggingface/diffusers
