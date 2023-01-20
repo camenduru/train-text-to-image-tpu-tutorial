@@ -1,6 +1,6 @@
 🐣 Please follow me for new updates https://twitter.com/camenduru
 
-This repo contains all codes and commands used in `train text to image with tpu tutorial`
+This repo contains all codes and commands used in `train text to image with tpu tutorial` https://youtu.be/NGta-t4BoLY
 
 ## Prepare TPU VM
 use with 🐧 linux or linux inside windows (wsl)
