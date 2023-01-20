@@ -43,7 +43,7 @@ python3 train_text_to_image_flax.py \
   --report_to="wandb"
 ```
 
-## Push Traind model to 🤗
+## Push Trained model to 🤗
 `push.py`
 
 ## Convert Flax model to PyTorch
