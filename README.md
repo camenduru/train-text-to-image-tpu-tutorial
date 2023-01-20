@@ -36,5 +36,7 @@ python3 train_text_to_image_flax.py \
   --report_to="wandb"
 ```
 
+https://huggingface.co/spaces/camenduru/converter
+
 ## Scripts From 
 https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_flax.py
