@@ -25,13 +25,15 @@ mkdir tpu
 cd tpu
 mkdir train
 cd train
-tmux
 ```
 
 ```sh
 wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutorial/main/train_text_to_image_flax.py
 ```
 
+```sh
+tmux
+```
 
 ## Prepare Dataset
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/train-text-to-image-tpu-tutorial/blob/main/prepare_dataset_colab.ipynb)
