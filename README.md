@@ -12,9 +12,11 @@ gcloud init
 
 `gcloud alpha compute tpus tpu-vm ssh node-1 --zone us-central1-f`
 
-`pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html packaging flax numpy diffusers transformers piexif fold_to_ascii discord ftfy dill urllib3 datasets importlib-metadata accelerate OmegaConf wandb optax torch torchvision modelcards pytorch_lightning protobuf==3.20.* tensorboard markupsafe==2.0.1`
+```py
+pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html packaging flax numpy diffusers transformers piexif fold_to_ascii discord ftfy dill urllib3 datasets importlib-metadata accelerate OmegaConf wandb optax torch torchvision modelcards pytorch_lightning protobuf==3.20.* tensorboard markupsafe==2.0.1
+```
 
-``py
+```py
 python3 train_text_to_image_flax.py \
   --pretrained_model_name_or_path="flax/sd15-non-ema" \
   --dataset_name="camenduru/test" \
@@ -26,7 +28,7 @@ python3 train_text_to_image_flax.py \
   --max_grad_norm=1 \
   --output_dir="test" \
   --report_to="wandb"
-
+```
 
 ## Scripts From 
 https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_flax.py
