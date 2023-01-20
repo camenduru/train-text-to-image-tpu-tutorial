@@ -21,6 +21,14 @@ pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-rel
 ```
 
 ```sh
+mkdir tpu
+cd tpu
+mkdir train
+cd train
+tmux
+```
+
+```sh
 wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutorial/main/train_text_to_image_flax.py
 ```
 
@@ -30,13 +38,6 @@ wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutoria
 
 
 ## Train
-```sh
-mkdir tpu
-cd tpu
-mkdir train
-cd train
-tmux
-```
 
 ```py
 python3 train_text_to_image_flax.py \
