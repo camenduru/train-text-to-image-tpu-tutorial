@@ -70,8 +70,8 @@ https://huggingface.co/spaces/camenduru/converter
 ## Test Flax model or PyTorch model
 https://github.com/camenduru/stable-diffusion-diffusers-colab
 
-# Output
-https://huggingface.co/camenduru/tpu-train-tutorial-flax
+## Outputs
+https://huggingface.co/camenduru/tpu-train-tutorial-flax <br />
 https://huggingface.co/camenduru/tpu-train-tutorial-pt
 
 ## YouTube Live VOD
