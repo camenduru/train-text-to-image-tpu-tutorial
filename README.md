@@ -1,6 +1,6 @@
 This repo contains all codes and commands used in `train text to image with tpu tutorial`
 
-
+## Prepare TPU VM
 use with 🐧 linux or linux inside windows (wsl)
 
 ```sh
@@ -22,6 +22,13 @@ pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-rel
 wget https://raw.githubusercontent.com/camenduru/train-text-to-image-tpu-tutorial/main/train_text_to_image_flax.py
 ```
 
+
+## Prepare Dataset
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/train-text-to-image-tpu-tutorial/blob/main/prepare_dataset_colab.ipynb)
+
+
+## Train
+
 ```py
 python3 train_text_to_image_flax.py \
   --pretrained_model_name_or_path="flax/sd15-non-ema" \
@@ -36,7 +43,11 @@ python3 train_text_to_image_flax.py \
   --report_to="wandb"
 ```
 
+## Convert Flax model to PyTorch
 https://huggingface.co/spaces/camenduru/converter
+
+## Test Flax model ot PyTorch model
+https://github.com/camenduru/stable-diffusion-diffusers-colab
 
 ## Scripts From 
 https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_flax.py
