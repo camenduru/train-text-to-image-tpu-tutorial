@@ -52,5 +52,9 @@ https://huggingface.co/spaces/camenduru/converter
 ## Test Flax model or PyTorch model
 https://github.com/camenduru/stable-diffusion-diffusers-colab
 
-## Scripts From 
+
+## Main Repo ♥
+https://github.com/huggingface/diffusers
+
+## Scripts From ♥
 https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image_flax.py
