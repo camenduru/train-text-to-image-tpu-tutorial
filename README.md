@@ -1,5 +1,7 @@
 🐣 Please follow me for new updates https://twitter.com/camenduru
 
+🤑 Please become my patron https://patreon.com/camenduru
+
 This repo contains all codes and commands used in `train text to image with tpu tutorial` https://youtu.be/NGta-t4BoLY
 
 ## Prepare TPU VM
