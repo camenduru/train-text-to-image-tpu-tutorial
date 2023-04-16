@@ -20,7 +20,9 @@ gcloud alpha compute tpus tpu-vm ssh node-1 --zone us-central1-f
 ```
 
 ```py
-pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html packaging flax numpy diffusers transformers piexif fold_to_ascii discord ftfy dill urllib3 datasets importlib-metadata accelerate OmegaConf wandb optax torch torchvision modelcards pytorch_lightning protobuf==3.20.* tensorboard markupsafe==2.0.1 gradio
+pip install -U zipp "jax[tpu]==0.3.23" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html packaging flax==0.6.1 chex==0.1.5 orbax==0.0.13 numpy diffusers transformers piexif fold_to_ascii discord ftfy dill urllib3 datasets importlib-metadata accelerate OmegaConf wandb optax torch torchvision modelcards pytorch_lightning protobuf==3.20.* tensorboard markupsafe==2.0.1 gradio
+
+sudo apt install git-lfs
 ```
 
 ```sh
