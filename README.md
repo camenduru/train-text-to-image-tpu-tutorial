@@ -1,5 +1,6 @@
 🐣 Please follow me for new updates https://twitter.com/camenduru <br />
-🔥 Please join our discord server https://discord.gg/k5BwmmvJJU
+🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
+🥳 Please join my patreon community https://patreon.com/camenduru <br />
 
 This repo contains all codes and commands used in `train text to image with tpu tutorial` https://youtu.be/NGta-t4BoLY
 
